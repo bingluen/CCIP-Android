@@ -43,6 +43,8 @@
             android:name=".activity.ProgramDetailActivity"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait" />
+
+        <receiver android:name=".application.ScheduleNotificationReceiver" />
     </application>
 
 </manifest>
